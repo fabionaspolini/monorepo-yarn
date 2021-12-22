@@ -13,9 +13,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"sayhi-90dab5@workspace:packages/sayhi":
+"sayhi@workspace:packages/sayhi":
   version: 0.0.0-use.local
-  resolution: "sayhi-90dab5@workspace:packages/sayhi"
+  resolution: "sayhi@workspace:packages/sayhi"
   languageName: unknown
   linkType: soft
 

@@ -2,7 +2,12 @@
   "name": "shared",
   "packageManager": "yarn@3.1.1",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "main": "dist/src/shared",
+  "types": "dist/src/shared",
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint src/*.ts",
+    "test": "jest",
+    "clean": "rm -r dist/*"
+  }
 }
